@@ -1,0 +1,10 @@
+Usage:
+
+1. put .tga files to convert in tga_files
+2. run tga2png.bat
+
+
+Troubleshooting:
+
+If module 'Pillow' was not found execute command 'pip install Pillow' in cmd
+https://pillow.readthedocs.io/en/stable/
