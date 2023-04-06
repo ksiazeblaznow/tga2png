@@ -1,5 +1,8 @@
 # tga2png
- Converting TGA files to PNG for multiple files at once
+ Converting TGA files to PNG for multiple files at once.
+
+## How it works?
+  Script takes every file in 'tga_files' folder, converts them to .png format and saves them into 'png_files'
 
 ## Usage
 1. Clone repository
@@ -9,7 +12,7 @@
 Also you can execute command prompt in cmd: python .\tga2png.py <folder_name_with_tga_files> <folder_name_to_save_png_files_to>
 > e.g.: python .\tga2png.py tga_files png_files
 
-## Troubleshooting (FAQ but not always witho question marks, I'm not sure if frequent and no one asked yet but it might be useful)
+## Troubleshooting or FAQ
 * Q: No module named Pillow
 
   A: Execute in cmd: pip install Pillow
